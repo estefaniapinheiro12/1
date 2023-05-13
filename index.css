@@ -1,0 +1,78 @@
+body{
+
+  margin: 0;
+  padding: 20px;
+
+}
+header{
+  width: 1300px;
+  height: 200px;
+  background-color: rgb(119, 59, 116);
+ border-radius: 10px;
+ border-top-right-radius: 10px;
+
+}
+h1{
+  text-align: center;
+  text-shadow: 10px 10px 5px #ccc;
+  color: #fff;
+ 
+}
+
+
+
+footer{
+  padding: 200px;
+  margin: 100px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Menu{
+  background-color: rgb(34, 19, 46);
+  width: 250px;
+  height: 100%;
+ border-radius: 60px;
+
+}
+.Menu .titulo {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 45px;
+  font-size: 24px;
+  border-bottom: 2px solid black;
+}
+.Menu ul{
+  list-style: none;
+}
+
+.Menu ul li{
+  line-height: 40px;
+  border-bottom: 1px solid white;
+}
+
+.Menu ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 30px;
+  font-weight: bold;
+  display: block;
+}
+.Menu ul li a:hover{
+  background-color: #ffffffbd;
+  transition: 0.5s;
+}
+.Menu ul ul li a{
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 60px;
+  background-color: #1c1b4b;
+}
+.Menu ul ul{
+  display: none;
+}
+.Menu ul .itens{
+  display: block;
+}
